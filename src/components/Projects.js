@@ -29,7 +29,6 @@ const Projects = () => {
         <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map(project => (
             <div key={project.id} className="bg-white shadow-md p-4 rounded-lg">
-              <img src={project.imageUrl} alt={project.title} className="mb-4" />
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
               <p className="text-gray-700 mb-4">{project.description}</p>
               <div className="flex justify-between">
