@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c829c12.css",
-    "main.js": "/static/js/main.40f3ccd3.js",
+    "main.css": "/static/css/main.36275d83.css",
+    "main.js": "/static/js/main.62459f2c.js",
     "static/js/453.2950d254.chunk.js": "/static/js/453.2950d254.chunk.js",
+    "static/media/BeratARPA.jpg": "/static/media/BeratARPA.dd1e7d5422a681b3a2d9.jpg",
     "index.html": "/index.html",
-    "main.1c829c12.css.map": "/static/css/main.1c829c12.css.map",
-    "main.40f3ccd3.js.map": "/static/js/main.40f3ccd3.js.map",
+    "main.36275d83.css.map": "/static/css/main.36275d83.css.map",
+    "main.62459f2c.js.map": "/static/js/main.62459f2c.js.map",
     "453.2950d254.chunk.js.map": "/static/js/453.2950d254.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c829c12.css",
-    "static/js/main.40f3ccd3.js"
+    "static/css/main.36275d83.css",
+    "static/js/main.62459f2c.js"
   ]
 }
