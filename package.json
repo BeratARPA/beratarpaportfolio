@@ -1,7 +1,7 @@
 {
   "name": "beratarpaportfolio",
   "version": "0.1.0",
-  "homepage": "https://beratarpa.github.io/beratarpaportfolio",
+  "homepage": "http://beratarpa.github.io/beratarpaportfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
