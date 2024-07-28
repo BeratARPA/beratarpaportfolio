@@ -1,0 +1,517 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Profile &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="freehtml5.co" />
+
+	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "Fo7vBbMCWdic4Sge_",
+            });
+        })();
+    </script>
+	<script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('service_yw336er', 'template_ugvsp1h', this)
+                    .then(() => {
+						document.getElementsByName("name")[0].value = "";
+                        document.getElementsByName("email")[0].value = "";
+                        document.getElementsByName("phonenumber")[0].value = "";
+                        document.getElementsByName("message")[0].value = "";
+						alert("Mesaj gönderildi.");
+                        console.log('SUCCESS!');
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">	
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url(images/BeratARPABackground.png);"></div>
+							<h1><span>Berat ARPA</span></h1>
+							<h3><span>.NET Full Stack Developer</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<li><a href="https://x.com/IBeratARPA"><i class="icon-twitter2"></i></a></li>
+									<li><a href="https://www.facebook.com/beratarpa18/"><i class="icon-facebook2"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/berat-arpa/"><i class="icon-linkedin2"></i></a></li>
+									<li><a href="https://www.instagram.com/beratarpa/"><i class="icon-instagram2"></i></a></li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Hakkımda</h2>
+				</div>
+			</div>
+			<div class="row">				
+				<div class="col-md-12">
+					<h2>Merhabalar</h2>
+					<p>22 yaşındayım ve bilgisayar ile 2009 yılında tanışarak 2015'ten itibaren yazılım dünyasında yer almaya başladım. Mobil, masaüstü ve web yazılımları üzerinde geniş bir deneyime sahibim. C# ve .NET teknolojilerine derinlemesine hakimiyetim yanı sıra HTML, CSS, JavaScript, Visual Basic gibi çeşitli teknolojilerle de çalışma yeteneğim var. Yazılım dünyasında edindiğim bilgi ve deneyimle birçok projede yer aldım ve hâlâ aktif olarak projeler geliştiriyorum. 2022 yılında ortağımla birlikte kurduğumuz Innovative Software Company (ISC) aracılığıyla, ISPOS ve ISCIntegration gibi kendi geliştirdiğimiz yazılımları part-time olarak satışa sunuyoruz. GitHub üzerindeki projelerim ve kazandığım 6 sertifikayla yazılım alanındaki yetkinliğimi sürekli olarak geliştiriyorum.</p>					
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="https://x.com/IBeratARPA"><i class="icon-twitter2"></i></a></li>
+							<li><a href="https://www.facebook.com/beratarpa18/"><i class="icon-facebook2"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/berat-arpa/"><i class="icon-linkedin2"></i></a></li>
+							<li><a href="https://www.instagram.com/beratarpa/"><i class="icon-instagram2"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Özgeçmişim</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>İş Deneyimi</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Full Stack Developer</h3>
+									<span class="company">Liwa Soft - 2024 - Devam</span>
+								</div>
+								<div class="timeline-body">
+									<p>Liwa Soft'ta mobil ve API geliştirme yapıyorum. .NET ve C# kullanarak yemek pazaryerleri için müşteri yönetim uygulamaları geliştiriyorum.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Back End Developer</h3>
+									<span class="company">Innovative Software Company - 2022 - 2023</span>
+								</div>
+								<div class="timeline-body">
+									<p>Kendi şirketimde restoranların işlerini kolaylaştıran yazılımlar geliştiriyordum.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Back End Developer</h3>
+									<span class="company">TZ Yazılım - 2021 - 2022</span>
+								</div>	
+								<div class="timeline-body">
+									<p>Restoranların işlerini kolaylaştıran yazılımlar geliştiriyordum.</p>
+								</div>							
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Stajyer</h3>
+									<span class="company">Aniventi - 2020 - 2021</span>
+								</div>
+								<div class="timeline-body">
+									<p>Yazılım stajyeri olarak görev aldım ve hastane yazılımları geliştiriyordum.</p>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="fh5co-features" class="animate-box">
+		<div class="container">
+			<div class="services-padding">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Hizmetlerim</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-paintbrush"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Front End Development</h3>
+								<p>HTML, CSS ve JavaScript kullanarak dinamik ve kullanıcı dostu web arayüzleri oluşturma.</p>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-briefcase"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Back End Development</h3>
+								<p>ASP.NET Core kullanarak API'ler geliştirme ve sunucu tarafı işlemlerini yönetme.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Veritabanı Yönetimi</h3>
+								<p>SQL Server ve MySQL gibi veritabanı sistemlerinde veri modeli oluşturma ve sorgu optimizasyonu.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-bargraph"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>End-to-End Geliştirme</h3>
+								<p>Projelerin tasarım aşamasından canlıya alınmasına kadar tüm süreçleri yönetme.</p>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-genius"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>DevOps ve CI/CD</h3>
+								<p>Sürekli entegrasyon ve sürekli dağıtım süreçleri kurma ve otomasyon araçları ile yapılandırma.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-chat"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Destek ve Bakım</h3>
+								<p>Uygulama performansını iyileştirme, hata ayıklama ve düzenli bakım yapma.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Yeteneklerim</h2>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">C#/.NET</span><span class="value-right">95%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">HTML</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">CSS</span><span class="value-right">70%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">JavaScript</span><span class="value-right">65%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">SQL</span><span class="value-right">75%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Visual Basic</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">MYSQL/MSSQL/Firebase</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Wordpress</span><span class="value-right">75%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-work" class="fh5co-bg-dark">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Projelerim</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);">
+						<div class="desc">
+							<h3>Restoran Otomasyonu</h3>
+							<span>Restoran işletmeleri için kapsamlı otomasyon sistemi</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);">
+						<div class="desc">
+							<h3>Mesajlaşma Uygulaması</h3>
+							<span>Firebase kullanılarak geliştirilmiş gerçek zamanlı mesajlaşma uygulaması</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+						<div class="desc">
+							<h3>Hava Durumu Uygulaması</h3>
+							<span>Hava durumu verilerini gösteren ve kullanıcı dostu arayüze sahip uygulama</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);">
+						<div class="desc">
+							<h3>Çalışan Vardiya Yönetimi</h3>
+							<span>Çalışanların vardiya ve çalışma saatlerini düzenlemeye yönelik uygulama</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
+						<div class="desc">
+							<h3>Sipariş Yönetimi</h3>
+							<span>Idea Soft API ile geliştirilmiş restoranlar için sipariş süreçlerini yönetmeye yardımcı olan uygulama</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
+						<div class="desc">
+							<h3>Restoran Yönetimi</h3>
+							<span>Restoranların tüm yönetim süreçlerini dijitalleştiren uygulama</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
+						<div class="desc">
+							<h3>Multimedia Format Dönüştürücü</h3>
+							<span>Farklı medya formatlarını dönüştürmeye yönelik yazılım</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
+						<div class="desc">
+							<h3>Halı Yıkama Otomasyonu</h3>
+							<span>Halı yıkama süreçlerini otomatikleştiren sistem</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+		
+	<div id="fh5co-consult">
+		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
+			<div class="overlay"></div>
+		</div>
+		<div class="choose animate-box">
+			<h2>İletişim</h2>
+			<form id="contact-form">
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" name="name" class="form-control" placeholder="Ad">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="email" name="email" class="form-control" placeholder="E-Posta">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="tel" name="phonenumber" class="form-control" placeholder="Telefon Numarası">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<textarea name="message" cols="30" rows="10" class="form-control" placeholder="Mesaj"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Gönder" class="btn btn-primary">
+				</div>
+			</form>	
+		</div>
+	</div>
+	
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p> Telif Hakkı &copy; 2024 Berat ARPA tarafından | Tüm Hakları Saklıdır</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
