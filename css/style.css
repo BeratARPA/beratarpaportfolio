@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 102, 204, 0.5);
+  background: rgba(0, 102, 204, 0.7);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -705,6 +705,53 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.github-profile {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  margin: 10px 0 5px;
+  font-size: 24px;
+  color: #333;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+  font-size: 18px;
+  color: #777;
+  text-decoration: none;
+}
+
+.username:hover {
+  color: #000;
+}
+
+.github-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.followers {
+  margin: 10px 0 0;
+  font-size: 16px;
+  color: #555;
 }
 
 .work {
